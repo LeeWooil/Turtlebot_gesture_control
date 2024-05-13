@@ -66,12 +66,24 @@ while cap.isOpened():
     # 현재 수집 중인 동작과 해당 동작의 학습 시간 표시
     current_time = time.time()
     if current_time - start_time <= stop_duration:
-        gesture = "Right"
+        gesture = "Left"
         label = 0
         remaining_time = int(stop_duration - (current_time - start_time))
     elif current_time - start_time <= stop_duration + go_duration:
-        gesture = "left"
+        gesture = "Right"
         label = 1
+        remaining_time = int(stop_duration + go_duration - (current_time - start_time))
+    elif current_time - start_time <= stop_duration + go_duration:
+        gesture = "Front"
+        label = 2
+        remaining_time = int(stop_duration + go_duration - (current_time - start_time))
+    elif current_time - start_time <= stop_duration + go_duration:
+        gesture = "Back"
+        label = 3
+        remaining_time = int(stop_duration + go_duration - (current_time - start_time))
+    elif current_time - start_time <= stop_duration + go_duration:
+        gesture = "Stop"
+        label = 4
         remaining_time = int(stop_duration + go_duration - (current_time - start_time))
     else:
         gesture = "Finished"

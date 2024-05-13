@@ -33,7 +33,7 @@ def calculate_angles(hand_landmarks):
     return input_data
 
 # 모델 로드
-model = tf.keras.models.load_model('gesture_recognition_model_v2.h5')
+model = tf.keras.models.load_model('Turtlebot_gesture_control\model\gesture_recognition_model_v2.h5')
 
 # 손 모델 로드
 mp_hands = mp.solutions.hands
@@ -84,19 +84,24 @@ while cap.isOpened():
 
             prediction = model.predict(input_data)
             gesture_label = np.argmax(prediction)
-            end = time.time()
-
+            print(prediction)
+            max_pred1 = max(prediction)
+            max_pred = max(max_pred1)
+            print(max_pred)
 
 
             # 모델로 예측
             
             # 예측 결과 텍스트로 표시
-            actions = ['Left', 'Right', 'Front', 'Back', 'Stop']
-            gesture_text = actions[gesture_label]
-            cv2.putText(img, gesture_text, (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-            mp_drawing.draw_landmarks(img, hand_landmarks, mp_hands.HAND_CONNECTIONS)
-            print(end-start)
-
+            #if i_pred > 50:
+            if max_pred > 0.5:
+                actions = ['Left', 'Right', 'Front', 'Back', 'Stop']
+                gesture_text = actions[gesture_label]
+                cv2.putText(img, gesture_text, (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+                mp_drawing.draw_landmarks(img, hand_landmarks, mp_hands.HAND_CONNECTIONS)
+            else:
+                cv2.putText(img, "?", (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+                mp_drawing.draw_landmarks(img, hand_landmarks, mp_hands.HAND_CONNECTIONS)
 
 
             # 손 랜드마크 그리기

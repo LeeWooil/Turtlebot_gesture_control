@@ -11,7 +11,7 @@ actions = ['left', 'right', 'front', 'back', 'stop']
 seq_length = 60
 
 
-model = load_model('models\gesture_recognition_model.keras')
+model = load_model('models\gesture_recognition_model_v3.keras')
 
 
 # MediaPipe hands model
@@ -75,6 +75,7 @@ while cap.isOpened():
 
             i_pred = int(np.argmax(y_pred))
             conf = y_pred[i_pred]
+            print(conf)
 
             if conf < 0.9:
                 continue

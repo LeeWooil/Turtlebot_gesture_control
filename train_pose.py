@@ -36,10 +36,14 @@ print(x_val.shape, y_val.shape)
 
 
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense
+from tensorflow.keras.layers import LSTM, Dense, Flatten
+
 
 model = Sequential([
-    LSTM(64, activation='relu', input_shape=x_train.shape[1:3]),
+    LSTM(64, activation='relu', return_sequences = True, input_shape=x_train.shape[1:3]),
+    LSTM(32, activation = 'relu'),
+    Flatten(),
+    Dense(64, activation='relu'),
     Dense(32, activation='relu'),
     Dense(len(actions), activation='softmax')
 ])
