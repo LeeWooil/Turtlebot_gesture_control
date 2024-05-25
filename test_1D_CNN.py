@@ -33,7 +33,7 @@ def calculate_angles(hand_landmarks):
     return input_data
 
 # 모델 로드
-model = tf.keras.models.load_model('Turtlebot_gesture_control\model\gesture_recognition_model_v2.h5')
+model = tf.keras.models.load_model('1DCNN_sigmoid.h5')
 
 # 손 모델 로드
 mp_hands = mp.solutions.hands

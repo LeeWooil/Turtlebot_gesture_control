@@ -11,7 +11,7 @@ actions = ['left', 'right', 'front', 'back', 'stop']
 seq_length = 60
 
 
-model = load_model('models\gesture_recognition_model_v3.keras')
+model = load_model('LSTM_sigmoid+softmax.keras')
 
 
 # MediaPipe hands model
@@ -72,6 +72,7 @@ while cap.isOpened():
             input_data = np.expand_dims(np.array(seq[-seq_length:], dtype=np.float32), axis=0)
 
             y_pred = model.predict(input_data).squeeze()
+            print(y_pred)
 
             i_pred = int(np.argmax(y_pred))
             conf = y_pred[i_pred]
@@ -91,9 +92,8 @@ while cap.isOpened():
             if action_seq[-1] == action_seq[-2]:
                 this_action = action
             end = time.time()
-            print(end-start)
     
-            cv2.putText(img, f'{this_action.upper()}', org=(int(res.landmark[0].x * img.shape[1]), int(res.landmark[0].y * img.shape[0] + 20)), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(255, 255, 255), thickness=2)
+            #cv2.putText(img, f'{this_action.upper()}', org=(int(res.landmark[0].x * img.shape[1]), int(res.landmark[0].y * img.shape[0] + 20)), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(255, 255, 255), thickness=2)
 
     # out.write(img0)
     # out2.write(img)

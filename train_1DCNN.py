@@ -39,16 +39,17 @@ model.add(MaxPooling1D(pool_size=2))
 model.add(Flatten())
 model.add(Dense(128, activation='relu'))
 model.add(Dropout(0.5))
-model.add(Dense(5, activation='softmax'))  # Assuming 2 classes (0 and 1)
+model.add(Dense(5, activation='sigmoid'))  
+
 
 # Compile the model
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Train the model
-history = model.fit(X_train, y_train, epochs=300, batch_size=32, validation_data=(X_test, y_test))
+history = model.fit(X_train, y_train, epochs=200, batch_size=32, validation_data=(X_test, y_test))
 
 # Save the model
-model.save('gesture_recognition_model_v2.h5')
+model.save('1DCNN_Sigmoid+Sofmax.h5')
 
 # Evaluate the model
 loss, accuracy = model.evaluate(X_test, y_test)

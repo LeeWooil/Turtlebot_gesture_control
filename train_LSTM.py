@@ -40,11 +40,12 @@ from tensorflow.keras.layers import LSTM, Dense, Flatten
 
 
 model = Sequential([
-    LSTM(64, activation='relu', return_sequences = True, input_shape=x_train.shape[1:3]),
-    LSTM(32, activation = 'relu'),
+    LSTM(64, activation='tanh', return_sequences = True, input_shape=x_train.shape[1:3]),
+    LSTM(32, activation = 'tanh'),
     Flatten(),
     Dense(64, activation='relu'),
     Dense(32, activation='relu'),
+    Dense(len(actions), activation='sigmoid'),
     Dense(len(actions), activation='softmax')
 ])
 
@@ -56,10 +57,10 @@ history = model.fit(
     x_train,
     y_train,
     validation_data=(x_val, y_val),
-    epochs=200,
+    epochs=50,
     batch_size = 32,
     callbacks=[
-        ModelCheckpoint('models/gesture_recognition_model.keras', monitor='val_acc', verbose=1, save_best_only=True, mode='auto'),
+        ModelCheckpoint('LSTM_sigmoid+softmax.keras', verbose=1, save_best_only=True, mode='auto'),
         ReduceLROnPlateau(monitor='val_acc', factor=0.5, patience=50, verbose=1, mode='auto')
     ]
 )
@@ -83,7 +84,7 @@ plt.show()
 from sklearn.metrics import multilabel_confusion_matrix
 from tensorflow.keras.models import load_model
 
-model = load_model('models/gesture_recognition_model.keras')
+model = load_model('LSTM_sigmoid+softmax.keras')
 
 y_pred = model.predict(x_val)
 
