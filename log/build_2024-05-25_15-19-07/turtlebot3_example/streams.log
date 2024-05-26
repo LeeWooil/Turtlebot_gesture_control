@@ -1,0 +1,87 @@
+[0.433s] Invoking command in '/home/lee/Capstone/src/turtlebot3/turtlebot3_example': AMENT_PREFIX_PATH=/home/lee/Capstone/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lee/Capstone/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/build/turtlebot3_example/prefix_override:/home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages:/home/lee/Capstone/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/lee/Capstone/build/turtlebot3_example/build install --record /home/lee/Capstone/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[0.588s] running egg_info
+[0.588s] creating ../../../build/turtlebot3_example/turtlebot3_example.egg-info
+[0.588s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[0.588s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[0.588s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[0.589s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[0.589s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[0.589s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.609s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.610s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[0.610s] running build
+[0.610s] running build_py
+[0.610s] creating /home/lee/Capstone/build/turtlebot3_example/build
+[0.610s] creating /home/lee/Capstone/build/turtlebot3_example/build/lib
+[0.610s] creating /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.611s] copying turtlebot3_example/__init__.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example
+[0.611s] creating /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.611s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.611s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.611s] copying turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.611s] copying turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[0.611s] creating /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.611s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.611s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.611s] copying turtlebot3_example/turtlebot3_position_control/main.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.611s] copying turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[0.611s] creating /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.611s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.612s] copying turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.612s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[0.612s] creating /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.612s] copying turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.612s] copying turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.612s] copying turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[0.612s] running install
+[0.612s] running install_lib
+[0.612s] creating /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example
+[0.612s] creating /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.612s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[0.613s] creating /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/main.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[0.613s] creating /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[0.613s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example
+[0.614s] creating /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.614s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.614s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.614s] copying /home/lee/Capstone/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[0.614s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-38.pyc
+[0.614s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py to turtlebot3_path.cpython-38.pyc
+[0.614s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/main.py to main.cpython-38.pyc
+[0.614s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/__init__.py to __init__.cpython-38.pyc
+[0.614s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py to turtlebot3_position_control.cpython-38.pyc
+[0.615s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py to turtlebot3_path.cpython-38.pyc
+[0.615s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/main.py to main.cpython-38.pyc
+[0.615s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/__init__.py to __init__.cpython-38.pyc
+[0.615s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-38.pyc
+[0.616s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/main.py to main.cpython-38.pyc
+[0.616s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-38.pyc
+[0.616s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/__init__.py to __init__.cpython-38.pyc
+[0.616s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-38.pyc
+[0.616s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/main.py to main.cpython-38.pyc
+[0.616s] byte-compiling /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/__init__.py to __init__.cpython-38.pyc
+[0.616s] running install_data
+[0.616s] creating /home/lee/Capstone/install/turtlebot3_example/share/ament_index
+[0.616s] creating /home/lee/Capstone/install/turtlebot3_example/share/ament_index/resource_index
+[0.616s] creating /home/lee/Capstone/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.617s] copying resource/turtlebot3_example -> /home/lee/Capstone/install/turtlebot3_example/share/ament_index/resource_index/packages
+[0.617s] copying package.xml -> /home/lee/Capstone/install/turtlebot3_example/share/turtlebot3_example
+[0.617s] running install_egg_info
+[0.618s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info
+[0.618s] running install_scripts
+[0.629s] Installing turtlebot3_obstacle_detection script to /home/lee/Capstone/install/turtlebot3_example/lib/turtlebot3_example
+[0.629s] Installing turtlebot3_patrol_client script to /home/lee/Capstone/install/turtlebot3_example/lib/turtlebot3_example
+[0.629s] Installing turtlebot3_patrol_server script to /home/lee/Capstone/install/turtlebot3_example/lib/turtlebot3_example
+[0.629s] Installing turtlebot3_position_control script to /home/lee/Capstone/install/turtlebot3_example/lib/turtlebot3_example
+[0.629s] writing list of installed files to '/home/lee/Capstone/build/turtlebot3_example/install.log'
+[0.646s] Invoked command in '/home/lee/Capstone/src/turtlebot3/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lee/Capstone/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/build/turtlebot3_example/prefix_override:/home/lee/Capstone/install/turtlebot3_example/lib/python3.8/site-packages:/home/lee/Capstone/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/lee/Capstone/build/turtlebot3_example/build install --record /home/lee/Capstone/build/turtlebot3_example/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+hello_ros_node = py_first_pkg.hello_ros:main
+

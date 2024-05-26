@@ -1,0 +1,28 @@
+[0.572s] Invoking command in '/home/lee/Capstone/src/gcamp_ros2_basic/py_service_pkg': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/build/py_service_pkg/prefix_override:/home/lee/Capstone/install/py_service_pkg/lib/python3.8/site-packages:/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/py_service_pkg build --build-base /home/lee/Capstone/build/py_service_pkg/build install --record /home/lee/Capstone/build/py_service_pkg/install.log --install-scripts $base/lib/py_service_pkg --single-version-externally-managed install_data
+[0.689s] running egg_info
+[0.689s] writing ../../../build/py_service_pkg/py_service_pkg.egg-info/PKG-INFO
+[0.689s] writing dependency_links to ../../../build/py_service_pkg/py_service_pkg.egg-info/dependency_links.txt
+[0.690s] writing entry points to ../../../build/py_service_pkg/py_service_pkg.egg-info/entry_points.txt
+[0.690s] writing requirements to ../../../build/py_service_pkg/py_service_pkg.egg-info/requires.txt
+[0.690s] writing top-level names to ../../../build/py_service_pkg/py_service_pkg.egg-info/top_level.txt
+[0.707s] reading manifest file '../../../build/py_service_pkg/py_service_pkg.egg-info/SOURCES.txt'
+[0.708s] writing manifest file '../../../build/py_service_pkg/py_service_pkg.egg-info/SOURCES.txt'
+[0.708s] running build
+[0.708s] running build_py
+[0.708s] running install
+[0.709s] running install_lib
+[0.710s] running install_data
+[0.710s] running install_egg_info
+[0.711s] removing '/home/lee/Capstone/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.711s] Copying ../../../build/py_service_pkg/py_service_pkg.egg-info to /home/lee/Capstone/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg-0.0.0-py3.8.egg-info
+[0.711s] running install_scripts
+[0.720s] Installing basic_client script to /home/lee/Capstone/install/py_service_pkg/lib/py_service_pkg
+[0.721s] Installing basic_server script to /home/lee/Capstone/install/py_service_pkg/lib/py_service_pkg
+[0.721s] Installing custom_srv_client script to /home/lee/Capstone/install/py_service_pkg/lib/py_service_pkg
+[0.721s] Installing custom_srv_server script to /home/lee/Capstone/install/py_service_pkg/lib/py_service_pkg
+[0.721s] Installing gazebo_model_spawner script to /home/lee/Capstone/install/py_service_pkg/lib/py_service_pkg
+[0.721s] Installing robot_turning_client script to /home/lee/Capstone/install/py_service_pkg/lib/py_service_pkg
+[0.721s] Installing robot_turning_server script to /home/lee/Capstone/install/py_service_pkg/lib/py_service_pkg
+[0.721s] Installing spawn_skidbot script to /home/lee/Capstone/install/py_service_pkg/lib/py_service_pkg
+[0.721s] writing list of installed files to '/home/lee/Capstone/build/py_service_pkg/install.log'
+[0.732s] Invoked command in '/home/lee/Capstone/src/gcamp_ros2_basic/py_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/build/py_service_pkg/prefix_override:/home/lee/Capstone/install/py_service_pkg/lib/python3.8/site-packages:/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/py_service_pkg build --build-base /home/lee/Capstone/build/py_service_pkg/build install --record /home/lee/Capstone/build/py_service_pkg/install.log --install-scripts $base/lib/py_service_pkg --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[0.463s] Invoking command in '/home/lee/Capstone/teleop': PYTHONPATH=/home/lee/Capstone/build/turtlebot3_teleop/prefix_override:/home/lee/Capstone/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlebot3_teleop build --build-base /home/lee/Capstone/build/turtlebot3_teleop/build install --record /home/lee/Capstone/build/turtlebot3_teleop/install.log --install-scripts $base/lib/turtlebot3_teleop --single-version-externally-managed install_data
+[0.578s] running egg_info
+[0.578s] writing ../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[0.578s] writing dependency_links to ../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[0.578s] writing entry points to ../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[0.578s] writing requirements to ../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[0.578s] writing top-level names to ../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[0.596s] reading manifest file '../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.596s] writing manifest file '../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.597s] running build
+[0.597s] running build_py
+[0.597s] running install
+[0.597s] running install_lib
+[0.598s] running install_data
+[0.598s] running install_egg_info
+[0.599s] removing '/home/lee/Capstone/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-1.0.0-py3.8.egg-info' (and everything under it)
+[0.599s] Copying ../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/lee/Capstone/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-1.0.0-py3.8.egg-info
+[0.599s] running install_scripts
+[0.609s] Installing turtlebot3_teleop_key script to /home/lee/Capstone/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[0.609s] writing list of installed files to '/home/lee/Capstone/build/turtlebot3_teleop/install.log'
+[0.622s] Invoked command in '/home/lee/Capstone/teleop' returned '0': PYTHONPATH=/home/lee/Capstone/build/turtlebot3_teleop/prefix_override:/home/lee/Capstone/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlebot3_teleop build --build-base /home/lee/Capstone/build/turtlebot3_teleop/build install --record /home/lee/Capstone/build/turtlebot3_teleop/install.log --install-scripts $base/lib/turtlebot3_teleop --single-version-externally-managed install_data

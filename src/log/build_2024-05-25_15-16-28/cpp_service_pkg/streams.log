@@ -1,0 +1,97 @@
+[0.040s] Invoking command in '/home/lee/Capstone/src/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:/home/lee/turtlebot3_ws/install/turtlebot3:/home/lee/turtlebot3_ws/install/turtlebot3_simulations:/home/lee/turtlebot3_ws/install/turtlebot3_bringup:/home/lee/turtlebot3_ws/install/turtlebot3_node:/home/lee/turtlebot3_ws/install/turtlebot3_navigation2:/home/lee/turtlebot3_ws/install/turtlebot3_fake_node:/home/lee/turtlebot3_ws/install/turtlebot3_msgs:/home/lee/turtlebot3_ws/install/turtlebot3_gazebo:/home/lee/turtlebot3_ws/install/turtlebot3_description:/home/lee/turtlebot3_ws/install/turtlebot3_cartographer:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/lee/Capstone/src/gcamp_ros2_basic/cpp_service_pkg -DCMAKE_INSTALL_PREFIX=/home/lee/Capstone/src/install/cpp_service_pkg
+[0.344s] -- The C compiler identification is GNU 9.4.0
+[0.345s] -- The CXX compiler identification is GNU 9.4.0
+[0.345s] -- Check for working C compiler: /usr/bin/cc
+[0.345s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.345s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.345s] -- Detecting C compile features
+[0.345s] -- Detecting C compile features - done
+[0.345s] -- Check for working CXX compiler: /usr/bin/c++
+[0.353s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.354s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.427s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.432s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.471s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.471s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.641s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.690s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.750s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.785s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.880s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.941s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.943s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.943s] -- Looking for pthread.h
+[0.990s] -- Looking for pthread.h - found
+[0.990s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.059s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.059s] -- Looking for pthread_create in pthreads
+[1.107s] -- Looking for pthread_create in pthreads - not found
+[1.107s] -- Looking for pthread_create in pthread
+[1.176s] -- Looking for pthread_create in pthread - found
+[1.177s] -- Found Threads: TRUE  
+[1.338s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[1.517s] -- Found custom_interfaces: 0.0.0 (/home/lee/Capstone/src/install/custom_interfaces/share/custom_interfaces/cmake)
+[1.588s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.628s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.709s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.710s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.710s] -- Configured cppcheck include dirs: 
+[1.710s] -- Configured cppcheck exclude dirs and/or files: 
+[1.710s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.710s] -- Configured cpplint exclude dirs and/or files: 
+[1.711s] -- Added test 'lint_cmake' to check CMake code style
+[1.712s] -- Added test 'uncrustify' to check C / C++ code style
+[1.712s] -- Configured uncrustify additional arguments: 
+[1.712s] -- Added test 'xmllint' to check XML markup files
+[1.714s] -- Configuring done
+[1.731s] -- Generating done
+[1.732s] -- Build files have been written to: /home/lee/Capstone/src/build/cpp_service_pkg
+[1.740s] Invoked command in '/home/lee/Capstone/src/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:/home/lee/turtlebot3_ws/install/turtlebot3:/home/lee/turtlebot3_ws/install/turtlebot3_simulations:/home/lee/turtlebot3_ws/install/turtlebot3_bringup:/home/lee/turtlebot3_ws/install/turtlebot3_node:/home/lee/turtlebot3_ws/install/turtlebot3_navigation2:/home/lee/turtlebot3_ws/install/turtlebot3_fake_node:/home/lee/turtlebot3_ws/install/turtlebot3_msgs:/home/lee/turtlebot3_ws/install/turtlebot3_gazebo:/home/lee/turtlebot3_ws/install/turtlebot3_description:/home/lee/turtlebot3_ws/install/turtlebot3_cartographer:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/lee/Capstone/src/gcamp_ros2_basic/cpp_service_pkg -DCMAKE_INSTALL_PREFIX=/home/lee/Capstone/src/install/cpp_service_pkg
+[1.742s] Invoking command in '/home/lee/Capstone/src/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:/home/lee/turtlebot3_ws/install/turtlebot3:/home/lee/turtlebot3_ws/install/turtlebot3_simulations:/home/lee/turtlebot3_ws/install/turtlebot3_bringup:/home/lee/turtlebot3_ws/install/turtlebot3_node:/home/lee/turtlebot3_ws/install/turtlebot3_navigation2:/home/lee/turtlebot3_ws/install/turtlebot3_fake_node:/home/lee/turtlebot3_ws/install/turtlebot3_msgs:/home/lee/turtlebot3_ws/install/turtlebot3_gazebo:/home/lee/turtlebot3_ws/install/turtlebot3_description:/home/lee/turtlebot3_ws/install/turtlebot3_cartographer:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lee/Capstone/src/build/cpp_service_pkg -- -j16 -l16
+[1.783s] [35m[1mScanning dependencies of target robot_turning_server_node[0m
+[1.783s] [35m[1mScanning dependencies of target basic_server_node[0m
+[1.783s] [35m[1mScanning dependencies of target basic_client_node[0m
+[1.783s] [35m[1mScanning dependencies of target robot_turning_client_node[0m
+[1.816s] [ 25%] [32mBuilding CXX object CMakeFiles/basic_client_node.dir/src/basic_client.cpp.o[0m
+[1.816s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_turning_server_node.dir/src/robot_turning_server.cpp.o[0m
+[1.822s] [ 50%] [32mBuilding CXX object CMakeFiles/basic_server_node.dir/src/basic_server.cpp.o[0m
+[1.822s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_turning_client_node.dir/src/robot_turning_client.cpp.o[0m
+[4.371s] [ 62%] [32m[1mLinking CXX executable basic_server_node[0m
+[4.701s] [ 62%] Built target basic_server_node
+[5.447s] [ 75%] [32m[1mLinking CXX executable basic_client_node[0m
+[5.984s] [ 75%] Built target basic_client_node
+[6.350s] [ 87%] [32m[1mLinking CXX executable robot_turning_client_node[0m
+[6.547s] [100%] [32m[1mLinking CXX executable robot_turning_server_node[0m
+[6.614s] [100%] Built target robot_turning_client_node
+[6.838s] [100%] Built target robot_turning_server_node
+[6.851s] Invoked command in '/home/lee/Capstone/src/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:/home/lee/turtlebot3_ws/install/turtlebot3:/home/lee/turtlebot3_ws/install/turtlebot3_simulations:/home/lee/turtlebot3_ws/install/turtlebot3_bringup:/home/lee/turtlebot3_ws/install/turtlebot3_node:/home/lee/turtlebot3_ws/install/turtlebot3_navigation2:/home/lee/turtlebot3_ws/install/turtlebot3_fake_node:/home/lee/turtlebot3_ws/install/turtlebot3_msgs:/home/lee/turtlebot3_ws/install/turtlebot3_gazebo:/home/lee/turtlebot3_ws/install/turtlebot3_description:/home/lee/turtlebot3_ws/install/turtlebot3_cartographer:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lee/Capstone/src/build/cpp_service_pkg -- -j16 -l16
+[6.884s] Invoking command in '/home/lee/Capstone/src/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:/home/lee/turtlebot3_ws/install/turtlebot3:/home/lee/turtlebot3_ws/install/turtlebot3_simulations:/home/lee/turtlebot3_ws/install/turtlebot3_bringup:/home/lee/turtlebot3_ws/install/turtlebot3_node:/home/lee/turtlebot3_ws/install/turtlebot3_navigation2:/home/lee/turtlebot3_ws/install/turtlebot3_fake_node:/home/lee/turtlebot3_ws/install/turtlebot3_msgs:/home/lee/turtlebot3_ws/install/turtlebot3_gazebo:/home/lee/turtlebot3_ws/install/turtlebot3_description:/home/lee/turtlebot3_ws/install/turtlebot3_cartographer:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lee/Capstone/src/build/cpp_service_pkg
+[6.895s] -- Install configuration: ""
+[6.895s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/lib/cpp_service_pkg/basic_server_node
+[6.895s] -- Set runtime path of "/home/lee/Capstone/src/install/cpp_service_pkg/lib/cpp_service_pkg/basic_server_node" to ""
+[6.895s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/lib/cpp_service_pkg/basic_client_node
+[6.896s] -- Set runtime path of "/home/lee/Capstone/src/install/cpp_service_pkg/lib/cpp_service_pkg/basic_client_node" to ""
+[6.896s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_server_node
+[6.897s] -- Set runtime path of "/home/lee/Capstone/src/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_server_node" to ""
+[6.897s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_client_node
+[6.897s] -- Set runtime path of "/home/lee/Capstone/src/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_client_node" to ""
+[6.897s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_service_pkg
+[6.897s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_service_pkg
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.sh
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.dsv
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.sh
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.dsv
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.bash
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.sh
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.zsh
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.dsv
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/ament_index/resource_index/packages/cpp_service_pkg
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig.cmake
+[6.898s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig-version.cmake
+[6.899s] -- Installing: /home/lee/Capstone/src/install/cpp_service_pkg/share/cpp_service_pkg/package.xml
+[6.910s] Invoked command in '/home/lee/Capstone/src/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:/home/lee/turtlebot3_ws/install/turtlebot3:/home/lee/turtlebot3_ws/install/turtlebot3_simulations:/home/lee/turtlebot3_ws/install/turtlebot3_bringup:/home/lee/turtlebot3_ws/install/turtlebot3_node:/home/lee/turtlebot3_ws/install/turtlebot3_navigation2:/home/lee/turtlebot3_ws/install/turtlebot3_fake_node:/home/lee/turtlebot3_ws/install/turtlebot3_msgs:/home/lee/turtlebot3_ws/install/turtlebot3_gazebo:/home/lee/turtlebot3_ws/install/turtlebot3_description:/home/lee/turtlebot3_ws/install/turtlebot3_cartographer:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lee/Capstone/src/build/cpp_service_pkg

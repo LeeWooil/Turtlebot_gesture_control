@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/Maze.action
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module action {
+    struct Maze_Goal {
+      sequence<int32> turning_sequence;
+    };
+    struct Maze_Result {
+      boolean success;
+    };
+    struct Maze_Feedback {
+      string feedback_msg;
+    };
+  };
+};

@@ -1,0 +1,235 @@
+[0.106s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.106s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fed84c91370>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fed84c91370>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fed84bda1f0>)
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.185s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lee/Capstone'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/data) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/dataset) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/model) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(Turtlebot_gesture_control/models) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(main) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'main' with type 'ros.ament_python' and name 'hand_tracking_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(teleop) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(teleop) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(teleop) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(teleop) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(teleop) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(teleop) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(teleop) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(teleop) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.206s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/lee/gcamp_ros2_ws/install
+[0.207s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/lee/Capstone/install
+[0.207s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 309 installed packages in /opt/ros/foxy
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'hand_tracking_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'hand_tracking_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/Capstone/build/hand_tracking_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/Capstone/install/hand_tracking_pkg', 'merge_install': False, 'path': '/home/lee/Capstone/main', 'symlink_install': False, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lee/Capstone/build/turtlebot3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lee/Capstone/install/turtlebot3_teleop', 'merge_install': False, 'path': '/home/lee/Capstone/teleop', 'symlink_install': False, 'test_result_base': None}
+[0.245s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.246s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.246s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lee/Capstone/main' with build type 'ament_python'
+[0.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_tracking_pkg', 'ament_prefix_path')
+[0.247s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/ament_prefix_path.ps1'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/ament_prefix_path.dsv'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/ament_prefix_path.sh'
+[0.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.250s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lee/Capstone/teleop' with build type 'ament_python'
+[0.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'ament_prefix_path')
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.ps1'
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.dsv'
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.sh'
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lee/Capstone/main'
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.375s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.495s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'turtlebot3_teleop' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.496s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lee/Capstone/teleop'
+[0.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/Capstone/main': PYTHONPATH=/home/lee/Capstone/build/hand_tracking_pkg/prefix_override:/home/lee/Capstone/install/hand_tracking_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/hand_tracking_pkg build --build-base /home/lee/Capstone/build/hand_tracking_pkg/build install --record /home/lee/Capstone/build/hand_tracking_pkg/install.log --install-scripts $base/lib/hand_tracking_pkg --single-version-externally-managed install_data
+[0.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lee/Capstone/teleop': PYTHONPATH=/home/lee/Capstone/build/turtlebot3_teleop/prefix_override:/home/lee/Capstone/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlebot3_teleop build --build-base /home/lee/Capstone/build/turtlebot3_teleop/build install --record /home/lee/Capstone/build/turtlebot3_teleop/install.log --install-scripts $base/lib/turtlebot3_teleop --single-version-externally-managed install_data
+[0.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/Capstone/main' returned '0': PYTHONPATH=/home/lee/Capstone/build/hand_tracking_pkg/prefix_override:/home/lee/Capstone/install/hand_tracking_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/hand_tracking_pkg build --build-base /home/lee/Capstone/build/hand_tracking_pkg/build install --record /home/lee/Capstone/build/hand_tracking_pkg/install.log --install-scripts $base/lib/hand_tracking_pkg --single-version-externally-managed install_data
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/hand_tracking_pkg' for CMake module files
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/hand_tracking_pkg' for CMake config files
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/hand_tracking_pkg/lib'
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/hand_tracking_pkg/bin'
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/hand_tracking_pkg/lib/pkgconfig/hand_tracking_pkg.pc'
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/hand_tracking_pkg/lib/python3.8/site-packages'
+[0.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_tracking_pkg', 'pythonpath')
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/pythonpath.ps1'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/pythonpath.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/hook/pythonpath.sh'
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/hand_tracking_pkg/bin'
+[0.880s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hand_tracking_pkg)
+[0.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/package.ps1'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/package.dsv'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/package.sh'
+[0.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/package.bash'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/Capstone/install/hand_tracking_pkg/share/hand_tracking_pkg/package.zsh'
+[0.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/Capstone/install/hand_tracking_pkg/share/colcon-core/packages/hand_tracking_pkg)
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/turtlebot3_teleop' for CMake module files
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/turtlebot3_teleop' for CMake config files
+[0.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lee/Capstone/teleop' returned '0': PYTHONPATH=/home/lee/Capstone/build/turtlebot3_teleop/prefix_override:/home/lee/Capstone/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlebot3_teleop build --build-base /home/lee/Capstone/build/turtlebot3_teleop/build install --record /home/lee/Capstone/build/turtlebot3_teleop/install.log --install-scripts $base/lib/turtlebot3_teleop --single-version-externally-managed install_data
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/turtlebot3_teleop/lib'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/turtlebot3_teleop/bin'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/turtlebot3_teleop/lib/pkgconfig/turtlebot3_teleop.pc'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/turtlebot3_teleop/lib/python3.8/site-packages'
+[0.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'pythonpath')
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.ps1'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.dsv'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.sh'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/lee/Capstone/install/turtlebot3_teleop/bin'
+[0.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_teleop)
+[0.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/package.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/package.dsv'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/package.sh'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/package.bash'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/lee/Capstone/install/turtlebot3_teleop/share/turtlebot3_teleop/package.zsh'
+[0.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lee/Capstone/install/turtlebot3_teleop/share/colcon-core/packages/turtlebot3_teleop)
+[0.885s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.886s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.886s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.886s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.889s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.889s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.889s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.893s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.893s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lee/Capstone/install/local_setup.ps1'
+[0.894s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lee/Capstone/install/_local_setup_util_ps1.py'
+[0.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lee/Capstone/install/setup.ps1'
+[0.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lee/Capstone/install/local_setup.sh'
+[0.895s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lee/Capstone/install/_local_setup_util_sh.py'
+[0.895s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lee/Capstone/install/setup.sh'
+[0.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lee/Capstone/install/local_setup.bash'
+[0.896s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lee/Capstone/install/setup.bash'
+[0.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lee/Capstone/install/local_setup.zsh'
+[0.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lee/Capstone/install/setup.zsh'

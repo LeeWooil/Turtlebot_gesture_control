@@ -1,0 +1,91 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found custom_interfaces: 0.0.0 (/home/lee/Capstone/install/custom_interfaces/share/custom_interfaces/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lee/Capstone/build/cpp_action_pkg
+[35m[1mScanning dependencies of target fibonacci_action_server_oop_node[0m
+[35m[1mScanning dependencies of target fibonacci_action_server_node[0m
+[35m[1mScanning dependencies of target fibonacci_action_client_node[0m
+[35m[1mScanning dependencies of target fibonacci_action_client_oop_node[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server_oop_node.dir/src/fibonacci_action_server_oop.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_server_node.dir/src/fibonacci_action_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_client_oop_node.dir/src/fibonacci_action_client_oop.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fibonacci_action_client_node.dir/src/fibonacci_action_client.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable fibonacci_action_server_node[0m
+[ 62%] Built target fibonacci_action_server_node
+[ 75%] [32m[1mLinking CXX executable fibonacci_action_client_node[0m
+[ 87%] [32m[1mLinking CXX executable fibonacci_action_server_oop_node[0m
+[ 87%] Built target fibonacci_action_client_node
+[ 87%] Built target fibonacci_action_server_oop_node
+[100%] [32m[1mLinking CXX executable fibonacci_action_client_oop_node[0m
+[100%] Built target fibonacci_action_client_oop_node
+-- Install configuration: ""
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_client_node
+-- Set runtime path of "/home/lee/Capstone/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_client_node" to ""
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_client_oop_node
+-- Set runtime path of "/home/lee/Capstone/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_client_oop_node" to ""
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_server_node
+-- Set runtime path of "/home/lee/Capstone/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_server_node" to ""
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_server_oop_node
+-- Set runtime path of "/home/lee/Capstone/install/cpp_action_pkg/lib/cpp_action_pkg/fibonacci_action_server_oop_node" to ""
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_action_pkg
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_action_pkg
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/environment/path.sh
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/environment/path.dsv
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.bash
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.sh
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.zsh
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/local_setup.dsv
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/package.dsv
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/ament_index/resource_index/packages/cpp_action_pkg
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/cmake/cpp_action_pkgConfig.cmake
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/cmake/cpp_action_pkgConfig-version.cmake
+-- Installing: /home/lee/Capstone/install/cpp_action_pkg/share/cpp_action_pkg/package.xml

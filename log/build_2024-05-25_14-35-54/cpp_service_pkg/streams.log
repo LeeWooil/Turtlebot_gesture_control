@@ -1,0 +1,28 @@
+[0.036s] Invoking command in '/home/lee/Capstone/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/Capstone/install/turtlebot3_teleop:/home/lee/Capstone/install/hand_tracking_pkg:/home/lee/Capstone/main/install/hand_tracking_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lee/Capstone/build/cpp_service_pkg -- -j16 -l16
+[0.210s] [ 25%] Built target basic_client_node
+[0.210s] [ 50%] Built target robot_turning_server_node
+[0.210s] [ 75%] Built target basic_server_node
+[0.210s] [100%] Built target robot_turning_client_node
+[0.357s] Invoked command in '/home/lee/Capstone/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/Capstone/install/turtlebot3_teleop:/home/lee/Capstone/install/hand_tracking_pkg:/home/lee/Capstone/main/install/hand_tracking_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lee/Capstone/build/cpp_service_pkg -- -j16 -l16
+[0.377s] Invoking command in '/home/lee/Capstone/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/Capstone/install/turtlebot3_teleop:/home/lee/Capstone/install/hand_tracking_pkg:/home/lee/Capstone/main/install/hand_tracking_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lee/Capstone/build/cpp_service_pkg
+[0.385s] -- Install configuration: ""
+[0.385s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/basic_server_node
+[0.385s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/basic_client_node
+[0.385s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_server_node
+[0.385s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_client_node
+[0.385s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_service_pkg
+[0.385s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_service_pkg
+[0.385s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.sh
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.dsv
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.sh
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.dsv
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.bash
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.sh
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.zsh
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.dsv
+[0.386s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/ament_index/resource_index/packages/cpp_service_pkg
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig.cmake
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig-version.cmake
+[0.386s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/package.xml
+[0.392s] Invoked command in '/home/lee/Capstone/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/Capstone/install/turtlebot3_teleop:/home/lee/Capstone/install/hand_tracking_pkg:/home/lee/Capstone/main/install/hand_tracking_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lee/Capstone/build/cpp_service_pkg

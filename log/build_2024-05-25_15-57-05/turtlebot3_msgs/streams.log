@@ -1,0 +1,15 @@
+[0.069s] Invoking command in '/home/lee/Capstone/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/Capstone/install/turtlebot3_teleop:/home/lee/Capstone/install/turtlebot3_example:/home/lee/Capstone/install/teleop_simulation_pkg:/home/lee/Capstone/install/py_topic_pkg:/home/lee/Capstone/install/py_service_pkg:/home/lee/Capstone/install/py_first_pkg:/home/lee/Capstone/install/py_action_pkg:/home/lee/Capstone/install/hand_tracking_pkg:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/Capstone/build/turtlebot3_msgs -- -j16 -l16
+[0.836s] [  1%] Built target turtlebot3_msgs__cpp
+[0.837s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.837s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.837s] [ 42%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.837s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.837s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.837s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.837s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[0.837s] [ 80%] Built target turtlebot3_msgs
+[0.837s] [ 81%] Built target turtlebot3_msgs__py
+[0.837s] [ 91%] Built target turtlebot3_msgs__python
+[0.837s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.837s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[0.837s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext

@@ -1,0 +1,39 @@
+[1.045s] Invoking command in '/home/lee/Capstone/src/gcamp_ros2_basic/py_first_pkg': PYTHONPATH=/home/lee/Capstone/src/build/py_first_pkg/prefix_override:/home/lee/Capstone/src/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_first_pkg build --build-base /home/lee/Capstone/src/build/py_first_pkg/build install --record /home/lee/Capstone/src/build/py_first_pkg/install.log --install-scripts $base/lib/py_first_pkg --single-version-externally-managed install_data
+[1.307s] running egg_info
+[1.308s] creating ../../build/py_first_pkg/py_first_pkg.egg-info
+[1.308s] writing ../../build/py_first_pkg/py_first_pkg.egg-info/PKG-INFO
+[1.308s] writing dependency_links to ../../build/py_first_pkg/py_first_pkg.egg-info/dependency_links.txt
+[1.308s] writing entry points to ../../build/py_first_pkg/py_first_pkg.egg-info/entry_points.txt
+[1.308s] writing requirements to ../../build/py_first_pkg/py_first_pkg.egg-info/requires.txt
+[1.308s] writing top-level names to ../../build/py_first_pkg/py_first_pkg.egg-info/top_level.txt
+[1.310s] writing manifest file '../../build/py_first_pkg/py_first_pkg.egg-info/SOURCES.txt'
+[1.347s] reading manifest file '../../build/py_first_pkg/py_first_pkg.egg-info/SOURCES.txt'
+[1.347s] writing manifest file '../../build/py_first_pkg/py_first_pkg.egg-info/SOURCES.txt'
+[1.347s] running build
+[1.347s] running build_py
+[1.348s] creating /home/lee/Capstone/src/build/py_first_pkg/build
+[1.348s] creating /home/lee/Capstone/src/build/py_first_pkg/build/lib
+[1.348s] creating /home/lee/Capstone/src/build/py_first_pkg/build/lib/py_first_pkg
+[1.348s] copying py_first_pkg/hello_ros.py -> /home/lee/Capstone/src/build/py_first_pkg/build/lib/py_first_pkg
+[1.348s] copying py_first_pkg/__init__.py -> /home/lee/Capstone/src/build/py_first_pkg/build/lib/py_first_pkg
+[1.348s] running install
+[1.349s] running install_lib
+[1.350s] creating /home/lee/Capstone/src/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg
+[1.350s] copying /home/lee/Capstone/src/build/py_first_pkg/build/lib/py_first_pkg/hello_ros.py -> /home/lee/Capstone/src/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg
+[1.350s] copying /home/lee/Capstone/src/build/py_first_pkg/build/lib/py_first_pkg/__init__.py -> /home/lee/Capstone/src/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg
+[1.350s] byte-compiling /home/lee/Capstone/src/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg/hello_ros.py to hello_ros.cpython-38.pyc
+[1.352s] byte-compiling /home/lee/Capstone/src/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg/__init__.py to __init__.cpython-38.pyc
+[1.352s] running install_data
+[1.352s] creating /home/lee/Capstone/src/install/py_first_pkg/share/ament_index
+[1.352s] creating /home/lee/Capstone/src/install/py_first_pkg/share/ament_index/resource_index
+[1.352s] creating /home/lee/Capstone/src/install/py_first_pkg/share/ament_index/resource_index/packages
+[1.352s] copying resource/py_first_pkg -> /home/lee/Capstone/src/install/py_first_pkg/share/ament_index/resource_index/packages
+[1.352s] copying package.xml -> /home/lee/Capstone/src/install/py_first_pkg/share/py_first_pkg
+[1.352s] creating /home/lee/Capstone/src/install/py_first_pkg/share/py_first_pkg/launch
+[1.352s] copying launch/hello_ros.launch.py -> /home/lee/Capstone/src/install/py_first_pkg/share/py_first_pkg/launch
+[1.352s] running install_egg_info
+[1.354s] Copying ../../build/py_first_pkg/py_first_pkg.egg-info to /home/lee/Capstone/src/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg-0.0.0-py3.8.egg-info
+[1.355s] running install_scripts
+[1.372s] Installing hello_ros_node script to /home/lee/Capstone/src/install/py_first_pkg/lib/py_first_pkg
+[1.373s] writing list of installed files to '/home/lee/Capstone/src/build/py_first_pkg/install.log'
+[1.394s] Invoked command in '/home/lee/Capstone/src/gcamp_ros2_basic/py_first_pkg' returned '0': PYTHONPATH=/home/lee/Capstone/src/build/py_first_pkg/prefix_override:/home/lee/Capstone/src/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_first_pkg build --build-base /home/lee/Capstone/src/build/py_first_pkg/build install --record /home/lee/Capstone/src/build/py_first_pkg/install.log --install-scripts $base/lib/py_first_pkg --single-version-externally-managed install_data

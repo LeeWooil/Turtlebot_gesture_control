@@ -1,0 +1,14 @@
+[  1%] Built target custom_interfaces__cpp
+[ 12%] Built target custom_interfaces__rosidl_generator_c
+[ 23%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[ 46%] Built target custom_interfaces__rosidl_typesupport_c
+[ 46%] Built target custom_interfaces__rosidl_typesupport_cpp
+[ 58%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[ 68%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 79%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[ 79%] Built target custom_interfaces
+[ 80%] Built target custom_interfaces__py
+[ 90%] Built target custom_interfaces__python
+[ 93%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext

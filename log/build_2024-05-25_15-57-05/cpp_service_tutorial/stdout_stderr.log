@@ -1,0 +1,4 @@
+[ 25%] Built target srv_client_node
+[ 50%] Built target cpp_simple_service_dummy_server_node
+[ 75%] Built target cpp_simple_service_client_node
+[100%] Built target srv_server_node

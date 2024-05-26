@@ -1,0 +1,21 @@
+[1.086s] Invoking command in '/home/lee/Capstone/src/gcamp_ros2_basic/py_first_pkg': PYTHONPATH=/home/lee/Capstone/build/py_first_pkg/prefix_override:/home/lee/Capstone/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/py_first_pkg build --build-base /home/lee/Capstone/build/py_first_pkg/build install --record /home/lee/Capstone/build/py_first_pkg/install.log --install-scripts $base/lib/py_first_pkg --single-version-externally-managed install_data
+[1.217s] running egg_info
+[1.217s] writing ../../../build/py_first_pkg/py_first_pkg.egg-info/PKG-INFO
+[1.218s] writing dependency_links to ../../../build/py_first_pkg/py_first_pkg.egg-info/dependency_links.txt
+[1.218s] writing entry points to ../../../build/py_first_pkg/py_first_pkg.egg-info/entry_points.txt
+[1.218s] writing requirements to ../../../build/py_first_pkg/py_first_pkg.egg-info/requires.txt
+[1.218s] writing top-level names to ../../../build/py_first_pkg/py_first_pkg.egg-info/top_level.txt
+[1.237s] reading manifest file '../../../build/py_first_pkg/py_first_pkg.egg-info/SOURCES.txt'
+[1.238s] writing manifest file '../../../build/py_first_pkg/py_first_pkg.egg-info/SOURCES.txt'
+[1.238s] running build
+[1.238s] running build_py
+[1.238s] running install
+[1.239s] running install_lib
+[1.239s] running install_data
+[1.239s] running install_egg_info
+[1.241s] removing '/home/lee/Capstone/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.241s] Copying ../../../build/py_first_pkg/py_first_pkg.egg-info to /home/lee/Capstone/install/py_first_pkg/lib/python3.8/site-packages/py_first_pkg-0.0.0-py3.8.egg-info
+[1.241s] running install_scripts
+[1.252s] Installing hello_ros_node script to /home/lee/Capstone/install/py_first_pkg/lib/py_first_pkg
+[1.252s] writing list of installed files to '/home/lee/Capstone/build/py_first_pkg/install.log'
+[1.274s] Invoked command in '/home/lee/Capstone/src/gcamp_ros2_basic/py_first_pkg' returned '0': PYTHONPATH=/home/lee/Capstone/build/py_first_pkg/prefix_override:/home/lee/Capstone/install/py_first_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/py_first_pkg build --build-base /home/lee/Capstone/build/py_first_pkg/build install --record /home/lee/Capstone/build/py_first_pkg/install.log --install-scripts $base/lib/py_first_pkg --single-version-externally-managed install_data

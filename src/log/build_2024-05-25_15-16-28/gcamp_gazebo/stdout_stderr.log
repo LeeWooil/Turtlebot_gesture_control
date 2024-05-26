@@ -1,0 +1,78 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lee/Capstone/src/build/gcamp_gazebo
+-- Install configuration: ""
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/second_launch.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/empty_world.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/skid_robot_world.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/tinybot_description.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/first_launch.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/spawn_entity.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/maze_world.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world_windows.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/diffbot_description.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/launch/skidbot_description.launch.py
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/worlds
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/worlds/bocbot_office.world
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/worlds/maze_world.world
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/worlds/gcamp_world.world
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf.xacro
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.gazebo
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.gazebo
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf.xacro
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/turtlebot.sdf
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/sambot.urdf
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf.xacro
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf.xacro
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.gazebo
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.gazebo
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/rviz
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/rviz/description.rviz
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/rviz/tinybot.rviz
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/rviz/skidbot.rviz
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/rviz/diffbot.rviz
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/ament_index/resource_index/package_run_dependencies/gcamp_gazebo
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/ament_index/resource_index/parent_prefix_path/gcamp_gazebo
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.dsv
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.sh
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.dsv
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.bash
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.sh
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.zsh
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.dsv
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/ament_index/resource_index/packages/gcamp_gazebo
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig.cmake
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig-version.cmake
+-- Installing: /home/lee/Capstone/src/install/gcamp_gazebo/share/gcamp_gazebo/package.xml

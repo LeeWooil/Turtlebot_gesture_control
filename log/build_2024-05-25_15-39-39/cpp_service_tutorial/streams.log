@@ -1,0 +1,28 @@
+[0.187s] Invoking command in '/home/lee/Capstone/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/Capstone/build/cpp_service_tutorial -- -j16 -l16
+[0.710s] [ 25%] Built target cpp_simple_service_dummy_server_node
+[0.710s] [ 50%] Built target srv_client_node
+[0.710s] [ 75%] Built target cpp_simple_service_client_node
+[0.710s] [100%] Built target srv_server_node
+[0.723s] Invoked command in '/home/lee/Capstone/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/Capstone/build/cpp_service_tutorial -- -j16 -l16
+[0.777s] Invoking command in '/home/lee/Capstone/build/cpp_service_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/lee/Capstone/build/cpp_service_tutorial
+[0.802s] -- Install configuration: ""
+[0.802s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/lib/cpp_service_tutorial/cpp_simple_service_client_node
+[0.802s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/lib/cpp_service_tutorial/cpp_simple_service_dummy_server_node
+[0.803s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/lib/cpp_service_tutorial/srv_server_node
+[0.803s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/lib/cpp_service_tutorial/srv_client_node
+[0.803s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/ament_index/resource_index/package_run_dependencies/cpp_service_tutorial
+[0.803s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/ament_index/resource_index/parent_prefix_path/cpp_service_tutorial
+[0.803s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/ament_prefix_path.sh
+[0.803s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/ament_prefix_path.dsv
+[0.803s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/path.sh
+[0.803s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/environment/path.dsv
+[0.803s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.bash
+[0.804s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.sh
+[0.804s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.zsh
+[0.804s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/local_setup.dsv
+[0.804s] -- Installing: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/package.dsv
+[0.805s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/ament_index/resource_index/packages/cpp_service_tutorial
+[0.805s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/cmake/cpp_service_tutorialConfig.cmake
+[0.805s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/cmake/cpp_service_tutorialConfig-version.cmake
+[0.805s] -- Up-to-date: /home/lee/Capstone/install/cpp_service_tutorial/share/cpp_service_tutorial/package.xml
+[0.837s] Invoked command in '/home/lee/Capstone/build/cpp_service_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/lee/Capstone/build/cpp_service_tutorial

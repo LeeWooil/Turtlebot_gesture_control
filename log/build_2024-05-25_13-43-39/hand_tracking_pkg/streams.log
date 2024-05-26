@@ -1,0 +1,27 @@
+[0.470s] Invoking command in '/home/lee/Capstone/main': PYTHONPATH=/home/lee/Capstone/build/hand_tracking_pkg/prefix_override:/home/lee/Capstone/install/hand_tracking_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/hand_tracking_pkg build --build-base /home/lee/Capstone/build/hand_tracking_pkg/build install --record /home/lee/Capstone/build/hand_tracking_pkg/install.log --install-scripts $base/lib/hand_tracking_pkg --single-version-externally-managed install_data
+[0.589s] running egg_info
+[0.589s] writing ../build/hand_tracking_pkg/hand_tracking_pkg.egg-info/PKG-INFO
+[0.589s] writing dependency_links to ../build/hand_tracking_pkg/hand_tracking_pkg.egg-info/dependency_links.txt
+[0.589s] writing entry points to ../build/hand_tracking_pkg/hand_tracking_pkg.egg-info/entry_points.txt
+[0.589s] writing requirements to ../build/hand_tracking_pkg/hand_tracking_pkg.egg-info/requires.txt
+[0.589s] writing top-level names to ../build/hand_tracking_pkg/hand_tracking_pkg.egg-info/top_level.txt
+[0.607s] reading manifest file '../build/hand_tracking_pkg/hand_tracking_pkg.egg-info/SOURCES.txt'
+[0.607s] writing manifest file '../build/hand_tracking_pkg/hand_tracking_pkg.egg-info/SOURCES.txt'
+[0.607s] running build
+[0.607s] running build_py
+[0.607s] copying hand_tracking_pkg/hand_tracking_node2.py -> /home/lee/Capstone/build/hand_tracking_pkg/build/lib/hand_tracking_pkg
+[0.607s] running install
+[0.608s] running install_lib
+[0.608s] copying /home/lee/Capstone/build/hand_tracking_pkg/build/lib/hand_tracking_pkg/hand_tracking_node2.py -> /home/lee/Capstone/install/hand_tracking_pkg/lib/python3.8/site-packages/hand_tracking_pkg
+[0.609s] byte-compiling /home/lee/Capstone/install/hand_tracking_pkg/lib/python3.8/site-packages/hand_tracking_pkg/hand_tracking_node2.py to hand_tracking_node2.cpython-38.pyc
+[0.610s] running install_data
+[0.610s] running install_egg_info
+[0.611s] removing '/home/lee/Capstone/install/hand_tracking_pkg/lib/python3.8/site-packages/hand_tracking_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.611s] Copying ../build/hand_tracking_pkg/hand_tracking_pkg.egg-info to /home/lee/Capstone/install/hand_tracking_pkg/lib/python3.8/site-packages/hand_tracking_pkg-0.0.0-py3.8.egg-info
+[0.611s] running install_scripts
+[0.620s] Installing hand_tracking_node script to /home/lee/Capstone/install/hand_tracking_pkg/lib/hand_tracking_pkg
+[0.620s] Installing hand_tracking_node2 script to /home/lee/Capstone/install/hand_tracking_pkg/lib/hand_tracking_pkg
+[0.620s] Installing img_publisher script to /home/lee/Capstone/install/hand_tracking_pkg/lib/hand_tracking_pkg
+[0.621s] Installing img_subscriber script to /home/lee/Capstone/install/hand_tracking_pkg/lib/hand_tracking_pkg
+[0.621s] writing list of installed files to '/home/lee/Capstone/build/hand_tracking_pkg/install.log'
+[0.638s] Invoked command in '/home/lee/Capstone/main' returned '0': PYTHONPATH=/home/lee/Capstone/build/hand_tracking_pkg/prefix_override:/home/lee/Capstone/install/hand_tracking_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/hand_tracking_pkg build --build-base /home/lee/Capstone/build/hand_tracking_pkg/build install --record /home/lee/Capstone/build/hand_tracking_pkg/install.log --install-scripts $base/lib/hand_tracking_pkg --single-version-externally-managed install_data
