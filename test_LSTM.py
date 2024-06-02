@@ -7,11 +7,11 @@ from tensorflow.keras.models import load_model
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
 
-actions = ['left', 'right', 'front', 'back', 'stop']
+actions = ['left', 'right', 'front', 'back', 'stop','Non-class']
 seq_length = 60
 
 
-model = load_model('LSTM_sigmoid+softmax.keras')
+model = load_model('LSTM_Sofmax_nonclass_200.keras')
 
 
 # MediaPipe hands model
@@ -93,7 +93,7 @@ while cap.isOpened():
                 this_action = action
             end = time.time()
     
-            #cv2.putText(img, f'{this_action.upper()}', org=(int(res.landmark[0].x * img.shape[1]), int(res.landmark[0].y * img.shape[0] + 20)), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(255, 255, 255), thickness=2)
+            cv2.putText(img, f'{this_action.upper()}', org=(int(res.landmark[0].x * img.shape[1]), int(res.landmark[0].y * img.shape[0] + 20)), fontFace=cv2.FONT_HERSHEY_SIMPLEX, fontScale=1, color=(255, 255, 255), thickness=2)
 
     # out.write(img0)
     # out2.write(img)

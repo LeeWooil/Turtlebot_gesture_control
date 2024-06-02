@@ -3,25 +3,27 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.utils import to_categorical
 import os
 from sklearn.metrics import accuracy_score
-
+from focal_loss import BinaryFocalLoss
 from tensorflow.keras.models import load_model
-
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 # 모델 파일 경로 지정
-cnn_model_path = 'Turtlebot_gesture_control\model\gesture_recognition_model_v2.h5'
+cnn_model_path = '1DCNN_focalloss.keras'
 #lstm_model_path = 'model\gesture_recognition_model.keras'
-lstm_model_path = 'models\gesture_recognition_model_v3.keras'
+lstm_model_path = 'LSTM_focalloss_best.keras'
 
 model_cnn = load_model(cnn_model_path)
 model_lstm = load_model(lstm_model_path)
 
-actions = ['left', 'right', 'front', 'back', 'stop']
-created_times = [1714062265]
+actions = ['left', 'right', 'front', 'back', 'stop', 'Non-class']
 
-data_1d = np.concatenate([
-    np.load(os.path.join('Turtlebot_gesture_control\dataset', f'raw_{action}_{created_time}.npy'))
-    for action in actions
-    for created_time in created_times
-], axis=0)
+
+data_1d = []
+
+for file in os.listdir('Test_cnn'):
+    if file.startswith('raw_') and file.endswith('.npy'):
+        data_1d.append(np.load(os.path.join('Test_cnn', file)))
+
+data_1d = np.concatenate(data_1d, axis=0)
 
 X_test_1d = data_1d[:, :-1]  # Features (angles)
 y_test_1d = data_1d[:, -1]   # Labels
@@ -29,9 +31,9 @@ y_test_1d = data_1d[:, -1]   # Labels
 y_test_1d = to_categorical(y_test_1d)
 
 data_rnn = np.concatenate([
-    np.load(os.path.join('Turtlebot_gesture_control\dataset', f'seq_{action}_{created_time}.npy'))
-    for action in actions
-    for created_time in created_times
+    np.load(os.path.join('Test_lstm', file))
+    for file in os.listdir('Test_lstm')
+    if file.startswith('seq_') and file.endswith('.npy')
 ], axis=0)
 
 X_test_rnn = data_rnn[:, :, :-1]

@@ -33,7 +33,7 @@ def calculate_angles(hand_landmarks):
     return input_data
 
 # 모델 로드
-model = tf.keras.models.load_model('1DCNN_sigmoid.h5')
+model = tf.keras.models.load_model('1DCNN_Sofmax_nonclass_200.keras')
 
 # 손 모델 로드
 mp_hands = mp.solutions.hands
@@ -95,7 +95,7 @@ while cap.isOpened():
             # 예측 결과 텍스트로 표시
             #if i_pred > 50:
             if max_pred > 0.5:
-                actions = ['Left', 'Right', 'Front', 'Back', 'Stop']
+                actions = ['Left', 'Right', 'Front', 'Back', 'Stop','Non-Class']
                 gesture_text = actions[gesture_label]
                 cv2.putText(img, gesture_text, (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
                 mp_drawing.draw_landmarks(img, hand_landmarks, mp_hands.HAND_CONNECTIONS)

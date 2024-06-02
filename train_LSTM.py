@@ -1,17 +1,27 @@
 import numpy as np
 import os
+import tensorflow as tf
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
-actions = ['left', 'right', 'front', 'back', 'stop']
-created_times = [1712312496, 1712315022, 1712321031]
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
+actions = ['left', 'right', 'front', 'back', 'stop','?']
+# created_times = [1712312496, 1712315022, 1712321031]
+
+# data = np.concatenate([
+#     np.load(os.path.join('data', f'seq_{action}_{created_time}.npy'))
+#     for action in actions
+#     for created_time in created_times
+# ], axis=0)
 
 data = np.concatenate([
-    np.load(os.path.join('data', f'seq_{action}_{created_time}.npy'))
-    for action in actions
-    for created_time in created_times
+    np.load(os.path.join('dataset_lstm', file))
+    for file in os.listdir('dataset_lstm')
+    if file.startswith('seq_') and file.endswith('.npy')
 ], axis=0)
 
+
+
+print(data.shape)
 x_data = data[:, :, :-1]
 labels = data[:, 0, -1]
 print (data)
@@ -45,25 +55,39 @@ model = Sequential([
     Flatten(),
     Dense(64, activation='relu'),
     Dense(32, activation='relu'),
-    Dense(len(actions), activation='sigmoid'),
+    #Dense(len(actions), activation='sigmoid'),
     Dense(len(actions), activation='softmax')
 ])
-
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
-model.summary()
+from focal_loss import BinaryFocalLoss
+model.compile(optimizer='adam', loss=BinaryFocalLoss(gamma=2), metrics=['acc'])
 from tensorflow.keras.callbacks import ModelCheckpoint, ReduceLROnPlateau
+checkpoint = ModelCheckpoint('LSTM_focalloss_best.keras', 
+                             save_weights_only=False, 
+                             save_best_only=True,  # Save only the best model
+                             monitor='val_acc',  # Monitor validation accuracy
+                             verbose=1)
+reduce_lr = ReduceLROnPlateau(monitor='val_acc', factor=0.5, patience=25, verbose=1, mode='auto')
 
-history = model.fit(
-    x_train,
-    y_train,
-    validation_data=(x_val, y_val),
-    epochs=50,
-    batch_size = 32,
-    callbacks=[
-        ModelCheckpoint('LSTM_sigmoid+softmax.keras', verbose=1, save_best_only=True, mode='auto'),
-        ReduceLROnPlateau(monitor='val_acc', factor=0.5, patience=50, verbose=1, mode='auto')
-    ]
-)
+# Train the model
+history = model.fit(x_train, y_train, epochs=200, batch_size=32, validation_data=(x_val, y_val),
+                    callbacks=[checkpoint, reduce_lr])
+
+model.save('LSTM_focalloss.keras')
+
+model.summary()
+
+
+# history = model.fit(
+#     x_train,
+#     y_train,
+#     validation_data=(x_val, y_val),
+#     epochs=50,
+#     batch_size = 32,
+#     callbacks=[
+#         ModelCheckpoint('LSTM_sigmoid+softmax.keras', verbose=1, save_best_only=True, mode='auto'),
+#         ReduceLROnPlateau(monitor='val_acc', factor=0.5, patience=50, verbose=1, mode='auto')
+#     ]
+# )
 import matplotlib.pyplot as plt
 
 fig, loss_ax = plt.subplots(figsize=(16, 10))
@@ -84,7 +108,7 @@ plt.show()
 from sklearn.metrics import multilabel_confusion_matrix
 from tensorflow.keras.models import load_model
 
-model = load_model('LSTM_sigmoid+softmax.keras')
+model = load_model('LSTM_Sofmax_nonclass_200.keras')
 
 y_pred = model.predict(x_val)
 
