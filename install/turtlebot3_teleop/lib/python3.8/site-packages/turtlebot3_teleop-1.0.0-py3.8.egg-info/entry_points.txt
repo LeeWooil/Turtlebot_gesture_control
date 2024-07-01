@@ -1,3 +1,0 @@
-[console_scripts]
-turtlebot3_teleop_key = turtlebot3_teleop.turtlebot3_teleop_key:main
-

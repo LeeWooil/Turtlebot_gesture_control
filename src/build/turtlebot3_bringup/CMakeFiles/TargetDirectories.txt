@@ -1,9 +1,0 @@
-/home/lee/Capstone/src/build/turtlebot3_bringup/CMakeFiles/install/strip.dir
-/home/lee/Capstone/src/build/turtlebot3_bringup/CMakeFiles/install/local.dir
-/home/lee/Capstone/src/build/turtlebot3_bringup/CMakeFiles/install.dir
-/home/lee/Capstone/src/build/turtlebot3_bringup/CMakeFiles/list_install_components.dir
-/home/lee/Capstone/src/build/turtlebot3_bringup/CMakeFiles/rebuild_cache.dir
-/home/lee/Capstone/src/build/turtlebot3_bringup/CMakeFiles/edit_cache.dir
-/home/lee/Capstone/src/build/turtlebot3_bringup/CMakeFiles/test.dir
-/home/lee/Capstone/src/build/turtlebot3_bringup/CMakeFiles/turtlebot3_bringup_uninstall.dir
-/home/lee/Capstone/src/build/turtlebot3_bringup/CMakeFiles/uninstall.dir

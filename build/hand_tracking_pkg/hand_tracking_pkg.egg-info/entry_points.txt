@@ -1,6 +1,0 @@
-[console_scripts]
-hand_tracking_node = hand_tracking_pkg.hand_tracking_node:main
-hand_tracking_node2 = hand_tracking_pkg.hand_tracking_node2:main
-img_publisher = hand_tracking_pkg.img_publisher:main
-img_subscriber = hand_tracking_pkg.hand_tracking_subscriber:main
-

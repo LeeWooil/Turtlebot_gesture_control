@@ -1,7 +1,0 @@
-[ 28%] Built target laser_sub_node
-[ 28%] Built target cmd_vel_pub_node
-[ 42%] Built target topic_pub_oop_node
-[ 57%] Built target topic_sub_oop_node
-[ 71%] Built target topic_pub_node
-[ 85%] Built target parking_node
-[100%] Built target topic_sub_node
