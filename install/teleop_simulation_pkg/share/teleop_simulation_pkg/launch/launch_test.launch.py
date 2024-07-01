@@ -27,9 +27,18 @@ def generate_launch_description():
         output='screen'
     )
 
+    rviz_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+        arguments=['-d', os.path.join(get_package_share_directory('turtlebot3_gazebo'), 'rviz', 'turtlebot3_gazebo.rviz')]
+    )
+
     return LaunchDescription([
         turtlebot3_world,
         hand_gesture_publisher,
-        teleop_turtlebot3
+        teleop_turtlebot3,
+        rviz_node
     ])
 

@@ -40,7 +40,7 @@ def main():
     node = rclpy.create_node('hand_tracking_node')
     pub = node.create_publisher(String, 'status_hand', 10)
 
-    model = tf.keras.models.load_model('Turtlebot_gesture_control/1DCNN_Sigmoid+Sofmax.h5')
+    model = tf.keras.models.load_model('/home/lee/Turtlebot_gesture_control/1DCNN_focalloss.keras')
 
     # For webcam input:
     cap = cv2.VideoCapture(0)
@@ -73,7 +73,7 @@ def main():
                     print(max_pred)
 
                     if max_pred > 0.5:
-                        actions = ['Left', 'Right', 'Front', 'Back', 'Stop']
+                        actions = ['Left', 'Right', 'Front', 'Back', 'Stop','?']
                         gesture_text = actions[gesture_label]
                         status(pub,gesture_text)
                         cv2.putText(img, gesture_text, (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
