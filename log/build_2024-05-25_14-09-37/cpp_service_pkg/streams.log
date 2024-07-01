@@ -1,0 +1,97 @@
+[0.021s] Invoking command in '/home/lee/Capstone/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/lee/Capstone/src/gcamp_ros2_basic/cpp_service_pkg -DCMAKE_INSTALL_PREFIX=/home/lee/Capstone/install/cpp_service_pkg
+[0.157s] -- The C compiler identification is GNU 9.4.0
+[0.158s] -- The CXX compiler identification is GNU 9.4.0
+[0.158s] -- Check for working C compiler: /usr/bin/cc
+[0.158s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.158s] -- Detecting C compiler ABI info
+[0.162s] -- Detecting C compiler ABI info - done
+[0.169s] -- Detecting C compile features
+[0.169s] -- Detecting C compile features - done
+[0.170s] -- Check for working CXX compiler: /usr/bin/c++
+[0.217s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.218s] -- Detecting CXX compiler ABI info
+[0.264s] -- Detecting CXX compiler ABI info - done
+[0.272s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.274s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.292s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.292s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.417s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.449s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.516s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.537s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.627s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.628s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.628s] -- Looking for pthread.h
+[0.671s] -- Looking for pthread.h - found
+[0.671s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.715s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.715s] -- Looking for pthread_create in pthreads
+[0.751s] -- Looking for pthread_create in pthreads - not found
+[0.751s] -- Looking for pthread_create in pthread
+[0.791s] -- Looking for pthread_create in pthread - found
+[0.792s] -- Found Threads: TRUE  
+[0.883s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[1.026s] -- Found custom_interfaces: 0.0.0 (/home/lee/Capstone/install/custom_interfaces/share/custom_interfaces/cmake)
+[1.089s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.128s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.189s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.190s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.190s] -- Configured cppcheck include dirs: 
+[1.190s] -- Configured cppcheck exclude dirs and/or files: 
+[1.191s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.191s] -- Configured cpplint exclude dirs and/or files: 
+[1.191s] -- Added test 'lint_cmake' to check CMake code style
+[1.192s] -- Added test 'uncrustify' to check C / C++ code style
+[1.192s] -- Configured uncrustify additional arguments: 
+[1.192s] -- Added test 'xmllint' to check XML markup files
+[1.194s] -- Configuring done
+[1.207s] -- Generating done
+[1.208s] -- Build files have been written to: /home/lee/Capstone/build/cpp_service_pkg
+[1.214s] Invoked command in '/home/lee/Capstone/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/lee/Capstone/src/gcamp_ros2_basic/cpp_service_pkg -DCMAKE_INSTALL_PREFIX=/home/lee/Capstone/install/cpp_service_pkg
+[1.217s] Invoking command in '/home/lee/Capstone/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lee/Capstone/build/cpp_service_pkg -- -j16 -l16
+[1.243s] [35m[1mScanning dependencies of target basic_client_node[0m
+[1.246s] [35m[1mScanning dependencies of target robot_turning_server_node[0m
+[1.246s] [35m[1mScanning dependencies of target basic_server_node[0m
+[1.246s] [35m[1mScanning dependencies of target robot_turning_client_node[0m
+[1.265s] [ 12%] [32mBuilding CXX object CMakeFiles/basic_client_node.dir/src/basic_client.cpp.o[0m
+[1.278s] [ 25%] [32mBuilding CXX object CMakeFiles/basic_server_node.dir/src/basic_server.cpp.o[0m
+[1.278s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_turning_server_node.dir/src/robot_turning_server.cpp.o[0m
+[1.278s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_turning_client_node.dir/src/robot_turning_client.cpp.o[0m
+[2.829s] [ 62%] [32m[1mLinking CXX executable basic_server_node[0m
+[2.863s] [ 75%] [32m[1mLinking CXX executable basic_client_node[0m
+[2.964s] [ 75%] Built target basic_client_node
+[2.997s] [ 75%] Built target basic_server_node
+[3.182s] [ 87%] [32m[1mLinking CXX executable robot_turning_client_node[0m
+[3.278s] [ 87%] Built target robot_turning_client_node
+[3.975s] [100%] [32m[1mLinking CXX executable robot_turning_server_node[0m
+[4.075s] [100%] Built target robot_turning_server_node
+[4.086s] Invoked command in '/home/lee/Capstone/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lee/Capstone/build/cpp_service_pkg -- -j16 -l16
+[4.105s] Invoking command in '/home/lee/Capstone/build/cpp_service_pkg': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lee/Capstone/build/cpp_service_pkg
+[4.112s] -- Install configuration: ""
+[4.112s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/basic_server_node
+[4.113s] -- Set runtime path of "/home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/basic_server_node" to ""
+[4.113s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/basic_client_node
+[4.113s] -- Set runtime path of "/home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/basic_client_node" to ""
+[4.113s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_server_node
+[4.114s] -- Set runtime path of "/home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_server_node" to ""
+[4.114s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_client_node
+[4.114s] -- Set runtime path of "/home/lee/Capstone/install/cpp_service_pkg/lib/cpp_service_pkg/robot_turning_client_node" to ""
+[4.114s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_service_pkg
+[4.114s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_service_pkg
+[4.114s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.sh
+[4.115s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/environment/ament_prefix_path.dsv
+[4.115s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.sh
+[4.115s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/environment/path.dsv
+[4.115s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.bash
+[4.115s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.sh
+[4.115s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.zsh
+[4.115s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/local_setup.dsv
+[4.115s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/package.dsv
+[4.115s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/ament_index/resource_index/packages/cpp_service_pkg
+[4.115s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig.cmake
+[4.116s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/cmake/cpp_service_pkgConfig-version.cmake
+[4.116s] -- Installing: /home/lee/Capstone/install/cpp_service_pkg/share/cpp_service_pkg/package.xml
+[4.116s] Invoked command in '/home/lee/Capstone/build/cpp_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/gcamp_gazebo:/home/lee/gcamp_ros2_ws/install/cpp_service_pkg:/home/lee/gcamp_ros2_ws/install/cpp_action_pkg:/home/lee/gcamp_ros2_ws/install/custom_interfaces:/home/lee/gcamp_ros2_ws/install/cpp_topic_pkg:/home/lee/gcamp_ros2_ws/install/cpp_service_tutorial:/home/lee/gcamp_ros2_ws/install/cpp_param_pkg:/home/lee/gcamp_ros2_ws/install/cpp_first_pkg:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/lee/Capstone/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lee/Capstone/build/cpp_service_pkg

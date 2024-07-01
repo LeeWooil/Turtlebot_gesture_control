@@ -1,0 +1,53 @@
+running egg_info
+creating ../../build/py_topic_pkg/py_topic_pkg.egg-info
+writing ../../build/py_topic_pkg/py_topic_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_topic_pkg/py_topic_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/py_topic_pkg/py_topic_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/py_topic_pkg/py_topic_pkg.egg-info/requires.txt
+writing top-level names to ../../build/py_topic_pkg/py_topic_pkg.egg-info/top_level.txt
+writing manifest file '../../build/py_topic_pkg/py_topic_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_topic_pkg/py_topic_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_topic_pkg/py_topic_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lee/Capstone/src/build/py_topic_pkg/build
+creating /home/lee/Capstone/src/build/py_topic_pkg/build/lib
+creating /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg
+copying py_topic_pkg/laser_sub.py -> /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg
+copying py_topic_pkg/endless_cmd_vel_pub.py -> /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg
+copying py_topic_pkg/laser_raw.py -> /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg
+copying py_topic_pkg/parking.py -> /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg
+copying py_topic_pkg/__init__.py -> /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg
+copying py_topic_pkg/cmd_vel_pub.py -> /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg
+running install
+running install_lib
+creating /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg
+copying /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg/laser_sub.py -> /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg
+copying /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg/endless_cmd_vel_pub.py -> /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg
+copying /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg/laser_raw.py -> /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg
+copying /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg/parking.py -> /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg
+copying /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg/__init__.py -> /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg
+copying /home/lee/Capstone/src/build/py_topic_pkg/build/lib/py_topic_pkg/cmd_vel_pub.py -> /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg
+byte-compiling /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg/laser_sub.py to laser_sub.cpython-38.pyc
+byte-compiling /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg/endless_cmd_vel_pub.py to endless_cmd_vel_pub.cpython-38.pyc
+byte-compiling /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg/laser_raw.py to laser_raw.cpython-38.pyc
+byte-compiling /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg/parking.py to parking.cpython-38.pyc
+byte-compiling /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg/cmd_vel_pub.py to cmd_vel_pub.cpython-38.pyc
+running install_data
+creating /home/lee/Capstone/src/install/py_topic_pkg/share/ament_index
+creating /home/lee/Capstone/src/install/py_topic_pkg/share/ament_index/resource_index
+creating /home/lee/Capstone/src/install/py_topic_pkg/share/ament_index/resource_index/packages
+copying resource/py_topic_pkg -> /home/lee/Capstone/src/install/py_topic_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/lee/Capstone/src/install/py_topic_pkg/share/py_topic_pkg
+creating /home/lee/Capstone/src/install/py_topic_pkg/share/py_topic_pkg/launch
+copying launch/cmd_vel_pub.launch.py -> /home/lee/Capstone/src/install/py_topic_pkg/share/py_topic_pkg/launch
+running install_egg_info
+Copying ../../build/py_topic_pkg/py_topic_pkg.egg-info to /home/lee/Capstone/src/install/py_topic_pkg/lib/python3.8/site-packages/py_topic_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing cmd_vel_pub_node script to /home/lee/Capstone/src/install/py_topic_pkg/lib/py_topic_pkg
+Installing endless_cmd_vel_pub_node script to /home/lee/Capstone/src/install/py_topic_pkg/lib/py_topic_pkg
+Installing laser_raw_node script to /home/lee/Capstone/src/install/py_topic_pkg/lib/py_topic_pkg
+Installing laser_sub_node script to /home/lee/Capstone/src/install/py_topic_pkg/lib/py_topic_pkg
+Installing parking_node script to /home/lee/Capstone/src/install/py_topic_pkg/lib/py_topic_pkg
+writing list of installed files to '/home/lee/Capstone/src/build/py_topic_pkg/install.log'

@@ -1,0 +1,65 @@
+[1.077s] Invoking command in '/home/lee/Capstone/src/gcamp_ros2_basic/py_service_pkg': AMENT_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lee/Capstone/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/src/build/py_service_pkg/prefix_override:/home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages:/home/lee/Capstone/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_service_pkg build --build-base /home/lee/Capstone/src/build/py_service_pkg/build install --record /home/lee/Capstone/src/build/py_service_pkg/install.log --install-scripts $base/lib/py_service_pkg --single-version-externally-managed install_data
+[1.223s] running egg_info
+[1.224s] creating ../../build/py_service_pkg/py_service_pkg.egg-info
+[1.224s] writing ../../build/py_service_pkg/py_service_pkg.egg-info/PKG-INFO
+[1.224s] writing dependency_links to ../../build/py_service_pkg/py_service_pkg.egg-info/dependency_links.txt
+[1.224s] writing entry points to ../../build/py_service_pkg/py_service_pkg.egg-info/entry_points.txt
+[1.224s] writing requirements to ../../build/py_service_pkg/py_service_pkg.egg-info/requires.txt
+[1.224s] writing top-level names to ../../build/py_service_pkg/py_service_pkg.egg-info/top_level.txt
+[1.225s] writing manifest file '../../build/py_service_pkg/py_service_pkg.egg-info/SOURCES.txt'
+[1.246s] reading manifest file '../../build/py_service_pkg/py_service_pkg.egg-info/SOURCES.txt'
+[1.247s] writing manifest file '../../build/py_service_pkg/py_service_pkg.egg-info/SOURCES.txt'
+[1.247s] running build
+[1.247s] running build_py
+[1.247s] creating /home/lee/Capstone/src/build/py_service_pkg/build
+[1.247s] creating /home/lee/Capstone/src/build/py_service_pkg/build/lib
+[1.247s] creating /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg
+[1.247s] copying py_service_pkg/custom_srv_client.py -> /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg
+[1.247s] copying py_service_pkg/custom_srv_server.py -> /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg
+[1.247s] copying py_service_pkg/robot_turning_client.py -> /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg
+[1.247s] copying py_service_pkg/spawn_model.py -> /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg
+[1.247s] copying py_service_pkg/robot_turning_srv.py -> /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg
+[1.248s] copying py_service_pkg/basic_srv_client.py -> /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg
+[1.248s] copying py_service_pkg/basic_srv_server.py -> /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg
+[1.248s] copying py_service_pkg/spawn_skidbot.py -> /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg
+[1.248s] copying py_service_pkg/__init__.py -> /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg
+[1.248s] running install
+[1.248s] running install_lib
+[1.249s] creating /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[1.249s] copying /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg/custom_srv_client.py -> /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[1.249s] copying /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg/custom_srv_server.py -> /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[1.249s] copying /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg/robot_turning_client.py -> /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[1.249s] copying /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg/spawn_model.py -> /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[1.250s] copying /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg/robot_turning_srv.py -> /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[1.250s] copying /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg/basic_srv_client.py -> /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[1.250s] copying /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg/basic_srv_server.py -> /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[1.250s] copying /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg/spawn_skidbot.py -> /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[1.250s] copying /home/lee/Capstone/src/build/py_service_pkg/build/lib/py_service_pkg/__init__.py -> /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg
+[1.250s] byte-compiling /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/custom_srv_client.py to custom_srv_client.cpython-38.pyc
+[1.251s] byte-compiling /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/custom_srv_server.py to custom_srv_server.cpython-38.pyc
+[1.251s] byte-compiling /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/robot_turning_client.py to robot_turning_client.cpython-38.pyc
+[1.252s] byte-compiling /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/spawn_model.py to spawn_model.cpython-38.pyc
+[1.252s] byte-compiling /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/robot_turning_srv.py to robot_turning_srv.cpython-38.pyc
+[1.252s] byte-compiling /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/basic_srv_client.py to basic_srv_client.cpython-38.pyc
+[1.253s] byte-compiling /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/basic_srv_server.py to basic_srv_server.cpython-38.pyc
+[1.253s] byte-compiling /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/spawn_skidbot.py to spawn_skidbot.cpython-38.pyc
+[1.253s] byte-compiling /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg/__init__.py to __init__.cpython-38.pyc
+[1.253s] running install_data
+[1.253s] creating /home/lee/Capstone/src/install/py_service_pkg/share/ament_index
+[1.254s] creating /home/lee/Capstone/src/install/py_service_pkg/share/ament_index/resource_index
+[1.254s] creating /home/lee/Capstone/src/install/py_service_pkg/share/ament_index/resource_index/packages
+[1.254s] copying resource/py_service_pkg -> /home/lee/Capstone/src/install/py_service_pkg/share/ament_index/resource_index/packages
+[1.254s] copying package.xml -> /home/lee/Capstone/src/install/py_service_pkg/share/py_service_pkg
+[1.254s] running install_egg_info
+[1.255s] Copying ../../build/py_service_pkg/py_service_pkg.egg-info to /home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages/py_service_pkg-0.0.0-py3.8.egg-info
+[1.256s] running install_scripts
+[1.268s] Installing basic_client script to /home/lee/Capstone/src/install/py_service_pkg/lib/py_service_pkg
+[1.268s] Installing basic_server script to /home/lee/Capstone/src/install/py_service_pkg/lib/py_service_pkg
+[1.268s] Installing custom_srv_client script to /home/lee/Capstone/src/install/py_service_pkg/lib/py_service_pkg
+[1.268s] Installing custom_srv_server script to /home/lee/Capstone/src/install/py_service_pkg/lib/py_service_pkg
+[1.268s] Installing gazebo_model_spawner script to /home/lee/Capstone/src/install/py_service_pkg/lib/py_service_pkg
+[1.268s] Installing robot_turning_client script to /home/lee/Capstone/src/install/py_service_pkg/lib/py_service_pkg
+[1.268s] Installing robot_turning_server script to /home/lee/Capstone/src/install/py_service_pkg/lib/py_service_pkg
+[1.268s] Installing spawn_skidbot script to /home/lee/Capstone/src/install/py_service_pkg/lib/py_service_pkg
+[1.268s] writing list of installed files to '/home/lee/Capstone/src/build/py_service_pkg/install.log'
+[1.287s] Invoked command in '/home/lee/Capstone/src/gcamp_ros2_basic/py_service_pkg' returned '0': AMENT_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lee/Capstone/src/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/lee/Capstone/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lee/Capstone/src/build/py_service_pkg/prefix_override:/home/lee/Capstone/src/install/py_service_pkg/lib/python3.8/site-packages:/home/lee/Capstone/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_service_pkg build --build-base /home/lee/Capstone/src/build/py_service_pkg/build install --record /home/lee/Capstone/src/build/py_service_pkg/install.log --install-scripts $base/lib/py_service_pkg --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[01m[K/home/lee/Capstone/src/gcamp_ros2_basic/cpp_param_pkg/src/param_tutorial.cpp:[m[K In constructor ‘[01m[KParamNode::ParamNode()[m[K’:
+[01m[K/home/lee/Capstone/src/gcamp_ros2_basic/cpp_param_pkg/src/param_tutorial.cpp:17:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmy_int[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   17 |         int [01;35m[Kmy_int[m[K = int_param.as_int();
+      |             [01;35m[K^~~~~~[m[K

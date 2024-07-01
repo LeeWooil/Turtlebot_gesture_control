@@ -1,0 +1,5 @@
+[console_scripts]
+hand_tracking_node2 = teleop_simulation_pkg.hand_tracking_node2:main
+img_subscriber = teleop_simulation_pkg.hand_tracking_subscriber:main
+turtlebot3_teleop_key = teleop_simulation_pkg.turtlebot3_teleop_key:main
+

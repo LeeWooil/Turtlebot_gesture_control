@@ -1,0 +1,26 @@
+[0.337s] Invoking command in '/home/lee/Capstone/src/teleop_simulation_pkg': PYTHONPATH=/home/lee/Capstone/build/teleop_simulation_pkg/prefix_override:/home/lee/Capstone/install/teleop_simulation_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/teleop_simulation_pkg build --build-base /home/lee/Capstone/build/teleop_simulation_pkg/build install --record /home/lee/Capstone/build/teleop_simulation_pkg/install.log --install-scripts $base/lib/teleop_simulation_pkg --single-version-externally-managed install_data
+[0.454s] running egg_info
+[0.455s] writing ../../build/teleop_simulation_pkg/teleop_simulation_pkg.egg-info/PKG-INFO
+[0.455s] writing dependency_links to ../../build/teleop_simulation_pkg/teleop_simulation_pkg.egg-info/dependency_links.txt
+[0.455s] writing entry points to ../../build/teleop_simulation_pkg/teleop_simulation_pkg.egg-info/entry_points.txt
+[0.455s] writing requirements to ../../build/teleop_simulation_pkg/teleop_simulation_pkg.egg-info/requires.txt
+[0.455s] writing top-level names to ../../build/teleop_simulation_pkg/teleop_simulation_pkg.egg-info/top_level.txt
+[0.472s] reading manifest file '../../build/teleop_simulation_pkg/teleop_simulation_pkg.egg-info/SOURCES.txt'
+[0.473s] writing manifest file '../../build/teleop_simulation_pkg/teleop_simulation_pkg.egg-info/SOURCES.txt'
+[0.473s] running build
+[0.473s] running build_py
+[0.473s] copying teleop_simulation_pkg/turtlebot3_teleop_key.py -> /home/lee/Capstone/build/teleop_simulation_pkg/build/lib/teleop_simulation_pkg
+[0.473s] running install
+[0.473s] running install_lib
+[0.474s] copying /home/lee/Capstone/build/teleop_simulation_pkg/build/lib/teleop_simulation_pkg/turtlebot3_teleop_key.py -> /home/lee/Capstone/install/teleop_simulation_pkg/lib/python3.8/site-packages/teleop_simulation_pkg
+[0.474s] byte-compiling /home/lee/Capstone/install/teleop_simulation_pkg/lib/python3.8/site-packages/teleop_simulation_pkg/turtlebot3_teleop_key.py to turtlebot3_teleop_key.cpython-38.pyc
+[0.475s] running install_data
+[0.475s] running install_egg_info
+[0.476s] removing '/home/lee/Capstone/install/teleop_simulation_pkg/lib/python3.8/site-packages/teleop_simulation_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.476s] Copying ../../build/teleop_simulation_pkg/teleop_simulation_pkg.egg-info to /home/lee/Capstone/install/teleop_simulation_pkg/lib/python3.8/site-packages/teleop_simulation_pkg-0.0.0-py3.8.egg-info
+[0.476s] running install_scripts
+[0.485s] Installing hand_tracking_node2 script to /home/lee/Capstone/install/teleop_simulation_pkg/lib/teleop_simulation_pkg
+[0.486s] Installing img_subscriber script to /home/lee/Capstone/install/teleop_simulation_pkg/lib/teleop_simulation_pkg
+[0.486s] Installing turtlebot3_teleop_key script to /home/lee/Capstone/install/teleop_simulation_pkg/lib/teleop_simulation_pkg
+[0.486s] writing list of installed files to '/home/lee/Capstone/build/teleop_simulation_pkg/install.log'
+[0.496s] Invoked command in '/home/lee/Capstone/src/teleop_simulation_pkg' returned '0': PYTHONPATH=/home/lee/Capstone/build/teleop_simulation_pkg/prefix_override:/home/lee/Capstone/install/teleop_simulation_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/teleop_simulation_pkg build --build-base /home/lee/Capstone/build/teleop_simulation_pkg/build install --record /home/lee/Capstone/build/teleop_simulation_pkg/install.log --install-scripts $base/lib/teleop_simulation_pkg --single-version-externally-managed install_data

@@ -1,0 +1,56 @@
+[0.187s] Invoking command in '/home/lee/Capstone/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/Capstone/build/gcamp_gazebo -- -j16 -l16
+[0.719s] Invoked command in '/home/lee/Capstone/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/lee/Capstone/build/gcamp_gazebo -- -j16 -l16
+[0.781s] Invoking command in '/home/lee/Capstone/build/gcamp_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/lee/Capstone/build/gcamp_gazebo
+[0.805s] -- Install configuration: ""
+[0.805s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch
+[0.805s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/second_launch.launch.py
+[0.805s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world.launch.py
+[0.806s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/empty_world.launch.py
+[0.806s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/skid_robot_world.launch.py
+[0.806s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/tinybot_description.launch.py
+[0.806s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/first_launch.launch.py
+[0.806s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/spawn_entity.launch.py
+[0.807s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/maze_world.launch.py
+[0.807s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/gcamp_world_windows.launch.py
+[0.807s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/diffbot_description.launch.py
+[0.808s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/launch/skidbot_description.launch.py
+[0.808s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/worlds
+[0.808s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/worlds/bocbot_office.world
+[0.809s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/worlds/maze_world.world
+[0.809s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/worlds/gcamp_world.world
+[0.809s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf
+[0.809s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf.xacro
+[0.810s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf
+[0.811s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf
+[0.811s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.gazebo
+[0.811s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.gazebo
+[0.811s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.urdf.xacro
+[0.811s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/turtlebot.sdf
+[0.811s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/sambot.urdf
+[0.811s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot.urdf.xacro
+[0.811s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf.xacro
+[0.812s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.gazebo
+[0.812s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/tinybot_diff.gazebo
+[0.812s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/diffbot.urdf
+[0.812s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/urdf/skidbot2.urdf
+[0.812s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/rviz
+[0.812s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/rviz/description.rviz
+[0.812s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/rviz/tinybot.rviz
+[0.812s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/rviz/skidbot.rviz
+[0.812s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/rviz/diffbot.rviz
+[0.814s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/ament_index/resource_index/package_run_dependencies/gcamp_gazebo
+[0.814s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/ament_index/resource_index/parent_prefix_path/gcamp_gazebo
+[0.814s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.sh
+[0.814s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/environment/ament_prefix_path.dsv
+[0.814s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.sh
+[0.815s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/environment/path.dsv
+[0.815s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.bash
+[0.815s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.sh
+[0.815s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.zsh
+[0.815s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/local_setup.dsv
+[0.815s] -- Installing: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/package.dsv
+[0.815s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/ament_index/resource_index/packages/gcamp_gazebo
+[0.815s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig.cmake
+[0.815s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/cmake/gcamp_gazeboConfig-version.cmake
+[0.815s] -- Up-to-date: /home/lee/Capstone/install/gcamp_gazebo/share/gcamp_gazebo/package.xml
+[0.864s] Invoked command in '/home/lee/Capstone/build/gcamp_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lee/turtlebot3_ws/install/turtlebot3_teleop:/home/lee/turtlebot3_ws/install/turtlebot3_example:/home/lee/gcamp_ros2_ws/install/py_topic_pkg:/home/lee/gcamp_ros2_ws/install/py_service_pkg:/home/lee/gcamp_ros2_ws/install/py_first_pkg:/home/lee/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/lee/Capstone/build/gcamp_gazebo

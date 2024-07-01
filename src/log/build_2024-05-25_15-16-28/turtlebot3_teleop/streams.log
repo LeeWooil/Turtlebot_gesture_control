@@ -1,0 +1,42 @@
+[1.231s] Invoking command in '/home/lee/Capstone/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/lee/Capstone/src/build/turtlebot3_teleop/prefix_override:/home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_teleop build --build-base /home/lee/Capstone/src/build/turtlebot3_teleop/build install --record /home/lee/Capstone/src/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[1.450s] running egg_info
+[1.450s] creating ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info
+[1.450s] writing ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[1.450s] writing dependency_links to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[1.450s] writing entry points to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[1.450s] writing requirements to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[1.450s] writing top-level names to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[1.451s] writing manifest file '../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.471s] reading manifest file '../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.471s] writing manifest file '../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.472s] running build
+[1.472s] running build_py
+[1.472s] creating /home/lee/Capstone/src/build/turtlebot3_teleop/build
+[1.472s] creating /home/lee/Capstone/src/build/turtlebot3_teleop/build/lib
+[1.472s] creating /home/lee/Capstone/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[1.472s] copying turtlebot3_teleop/__init__.py -> /home/lee/Capstone/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[1.472s] creating /home/lee/Capstone/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[1.472s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/lee/Capstone/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[1.472s] copying turtlebot3_teleop/script/__init__.py -> /home/lee/Capstone/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[1.472s] running install
+[1.473s] running install_lib
+[1.473s] creating /home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop
+[1.474s] creating /home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[1.474s] copying /home/lee/Capstone/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[1.474s] copying /home/lee/Capstone/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[1.474s] copying /home/lee/Capstone/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop
+[1.474s] byte-compiling /home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-38.pyc
+[1.475s] byte-compiling /home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-38.pyc
+[1.476s] byte-compiling /home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-38.pyc
+[1.476s] running install_data
+[1.476s] creating /home/lee/Capstone/src/install/turtlebot3_teleop/share/ament_index
+[1.476s] creating /home/lee/Capstone/src/install/turtlebot3_teleop/share/ament_index/resource_index
+[1.476s] creating /home/lee/Capstone/src/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.476s] copying resource/turtlebot3_teleop -> /home/lee/Capstone/src/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.476s] copying package.xml -> /home/lee/Capstone/src/install/turtlebot3_teleop/share/turtlebot3_teleop
+[1.476s] running install_egg_info
+[1.477s] Copying ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.1.4-py3.8.egg-info
+[1.478s] running install_scripts
+[1.490s] Installing teleop_keyboard script to /home/lee/Capstone/src/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.490s] writing list of installed files to '/home/lee/Capstone/src/build/turtlebot3_teleop/install.log'
+[1.509s] Invoked command in '/home/lee/Capstone/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/lee/Capstone/src/build/turtlebot3_teleop/prefix_override:/home/lee/Capstone/src/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_teleop build --build-base /home/lee/Capstone/src/build/turtlebot3_teleop/build install --record /home/lee/Capstone/src/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
